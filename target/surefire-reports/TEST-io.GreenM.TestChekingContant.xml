@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.GreenM.TestChekingContant" time="14.931" tests="111" errors="111" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\automation\Automation\greenmio-test"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\automation\Automation\greenmio-test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\maven\bin;C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python38\;C:\Program Files\maven\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Program Files\maven\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\maven\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="maven.home" value="C:\Program Files\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="CheckingVisibleReadMoreButtonAndGetInTouchFormForTechnologiesItem" classname="io.GreenM.TestChekingContant" time="11.529">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreButtonAndGetInTouchFormForTechnologiesItem(TestChekingContant.java:935)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreButtonAndGetInTouchFormForTechnologiesItem(TestChekingContant.java:935)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.078">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation(TestChekingContant.java:352)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation(TestChekingContant.java:352)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem" classname="io.GreenM.TestChekingContant" time="0.032">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem(TestChekingContant.java:479)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem(TestChekingContant.java:479)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForCustomerServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:741)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:741)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem" classname="io.GreenM.TestChekingContant" time="0.031">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem(TestChekingContant.java:407)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem(TestChekingContant.java:407)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForDrugDevelopmentSubitem" classname="io.GreenM.TestChekingContant" time="0.032">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForDrugDevelopmentSubitem(TestChekingContant.java:254)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForDrugDevelopmentSubitem(TestChekingContant.java:254)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForSelfServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.234">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:833)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:833)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDrugDevelopmentSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:227)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:227)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTechnologiesItem" classname="io.GreenM.TestChekingContant" time="0.187">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTechnologiesItem(TestChekingContant.java:943)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTechnologiesItem(TestChekingContant.java:943)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectLearnMoreButtonForHcDataPlatformSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectLearnMoreButtonForHcDataPlatformSubitem(TestChekingContant.java:158)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectLearnMoreButtonForHcDataPlatformSubitem(TestChekingContant.java:158)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem(TestChekingContant.java:515)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem(TestChekingContant.java:515)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="siteIsAvailable" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.siteIsAvailable(TestChekingContant.java:16)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.siteIsAvailable(TestChekingContant.java:16)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectGetLatestNewsButtonForHcDataPlatformSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectGetLatestNewsButtonForHcDataPlatformSubitem(TestChekingContant.java:149)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectGetLatestNewsButtonForHcDataPlatformSubitem(TestChekingContant.java:149)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:560)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:560)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem" classname="io.GreenM.TestChekingContant" time="0.093">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem(TestChekingContant.java:388)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem(TestChekingContant.java:388)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForHealthAnalyticsServicesSubitem" classname="io.GreenM.TestChekingContant" time="0.359">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:686)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:686)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemHomehealthSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.546">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHomehealthSubitemValidation(TestChekingContant.java:263)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHomehealthSubitemValidation(TestChekingContant.java:263)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectHeaderInstagramLink" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderInstagramLink(TestChekingContant.java:959)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderInstagramLink(TestChekingContant.java:959)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsTalkButtonForCaseStudiesSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsTalkButtonForCaseStudiesSubitem(TestChekingContant.java:921)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsTalkButtonForCaseStudiesSubitem(TestChekingContant.java:921)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:506)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:506)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForHomeHealthSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHomeHealthSubitem(TestChekingContant.java:280)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHomeHealthSubitem(TestChekingContant.java:280)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuServicesItemDatascienceenablementSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemDatascienceenablementSubitemValidation(TestChekingContant.java:851)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemDatascienceenablementSubitemValidation(TestChekingContant.java:851)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForDrugDevelopmentSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDrugDevelopmentSubitem(TestChekingContant.java:245)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDrugDevelopmentSubitem(TestChekingContant.java:245)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:551)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:551)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleViewAllTagsButtonForBlogItem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleViewAllTagsButtonForBlogItem(TestChekingContant.java:126)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleViewAllTagsButtonForBlogItem(TestChekingContant.java:126)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem(TestChekingContant.java:461)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem(TestChekingContant.java:461)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForHealthAnalyticsServicesSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:695)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:695)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemPopulationhealthSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPopulationhealthSubitemValidation(TestChekingContant.java:443)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPopulationhealthSubitemValidation(TestChekingContant.java:443)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem(TestChekingContant.java:370)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem(TestChekingContant.java:370)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuServicesItemHealthdataservicesSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthdataservicesSubitemValidation(TestChekingContant.java:623)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthdataservicesSubitemValidation(TestChekingContant.java:623)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="MainMenuCompanyItemCareersSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemCareersSubitemValidation(TestChekingContant.java:47)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemCareersSubitemValidation(TestChekingContant.java:47)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisible2ContactUsButtonsForTabterrierSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisible2ContactUsButtonsForTabterrierSubitem(TestChekingContant.java:905)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisible2ContactUsButtonsForTabterrierSubitem(TestChekingContant.java:905)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemTelemedicineSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemTelemedicineSubitemValidation(TestChekingContant.java:578)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemTelemedicineSubitemValidation(TestChekingContant.java:578)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectFindOutMoreButtonForHealthDataServicesSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectFindOutMoreButtonForHealthDataServicesSubitem(TestChekingContant.java:641)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectFindOutMoreButtonForHealthDataServicesSubitem(TestChekingContant.java:641)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem(TestChekingContant.java:605)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem(TestChekingContant.java:605)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForCommunityInsightsSubitem" classname="io.GreenM.TestChekingContant" time="0.047">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCommunityInsightsSubitem(TestChekingContant.java:210)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCommunityInsightsSubitem(TestChekingContant.java:210)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleContactButtonAndContactUsFormForAboutSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactButtonAndContactUsFormForAboutSubitem(TestChekingContant.java:38)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactButtonAndContactUsFormForAboutSubitem(TestChekingContant.java:38)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForHomeHealthSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHomeHealthSubitem(TestChekingContant.java:289)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHomeHealthSubitem(TestChekingContant.java:289)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuServicesItemEmbeddedanalyticsSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemEmbeddedanalyticsSubitemValidation(TestChekingContant.java:759)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemEmbeddedanalyticsSubitemValidation(TestChekingContant.java:759)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForHealthDataServicesSubitem" classname="io.GreenM.TestChekingContant" time="0.031">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthDataServicesSubitem(TestChekingContant.java:650)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthDataServicesSubitem(TestChekingContant.java:650)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem(TestChekingContant.java:425)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem(TestChekingContant.java:425)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleContactUsButtonAndLetsDiscussFormForHealthAnalyticsServicesSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsButtonAndLetsDiscussFormForHealthAnalyticsServicesSubitem(TestChekingContant.java:677)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsButtonAndLetsDiscussFormForHealthAnalyticsServicesSubitem(TestChekingContant.java:677)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectHeaderLinkedinLink" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderLinkedinLink(TestChekingContant.java:967)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderLinkedinLink(TestChekingContant.java:967)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForCommunityInsightsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCommunityInsightsSubitem(TestChekingContant.java:201)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCommunityInsightsSubitem(TestChekingContant.java:201)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDataScienceEnablementSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:888)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:888)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleComeWorkWithUsFormForCareersSubitem" classname="io.GreenM.TestChekingContant" time="0.172">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleComeWorkWithUsFormForCareersSubitem(TestChekingContant.java:72)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleComeWorkWithUsFormForCareersSubitem(TestChekingContant.java:72)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem(TestChekingContant.java:361)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem(TestChekingContant.java:361)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem(TestChekingContant.java:524)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem(TestChekingContant.java:524)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleReferencesListForHcDataPlatformSubitem" classname="io.GreenM.TestChekingContant" time="0.047">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReferencesListForHcDataPlatformSubitem(TestChekingContant.java:167)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReferencesListForHcDataPlatformSubitem(TestChekingContant.java:167)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForCustomerServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForCustomerServiceAnalyticsSubitem(TestChekingContant.java:722)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForCustomerServiceAnalyticsSubitem(TestChekingContant.java:722)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:569)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:569)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="MainMenuBlogItemValidation" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuBlogItemValidation(TestChekingContant.java:111)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuBlogItemValidation(TestChekingContant.java:111)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForEmbeddedAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:796)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:796)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="pageContainContactUsButtonInTheHeader" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.pageContainContactUsButtonInTheHeader(TestChekingContant.java:23)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.pageContainContactUsButtonInTheHeader(TestChekingContant.java:23)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingRedirectPathOpenJobButtonForCareersSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingRedirectPathOpenJobButtonForCareersSubitem(TestChekingContant.java:63)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingRedirectPathOpenJobButtonForCareersSubitem(TestChekingContant.java:63)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuProductsItemTabterrierSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuProductsItemTabterrierSubitemValidation(TestChekingContant.java:897)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuProductsItemTabterrierSubitemValidation(TestChekingContant.java:897)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem(TestChekingContant.java:298)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem(TestChekingContant.java:298)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForEmbeddedAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForEmbeddedAnalyticsSubitem(TestChekingContant.java:768)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForEmbeddedAnalyticsSubitem(TestChekingContant.java:768)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForDataScienceEnablementSubitem" classname="io.GreenM.TestChekingContant" time="0.171">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:870)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:870)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForDataScienceEnablementSubitem" classname="io.GreenM.TestChekingContant" time="0.031">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDataScienceEnablementSubitem(TestChekingContant.java:879)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDataScienceEnablementSubitem(TestChekingContant.java:879)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForSelfServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.047">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:842)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:842)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCustomerServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:750)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:750)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem(TestChekingContant.java:596)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem(TestChekingContant.java:596)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem(TestChekingContant.java:452)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem(TestChekingContant.java:452)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem(TestChekingContant.java:434)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem(TestChekingContant.java:434)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:325)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:325)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem(TestChekingContant.java:183)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem(TestChekingContant.java:183)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="MainMenuCompanyItemAboutSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemAboutSubitemValidation(TestChekingContant.java:30)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemAboutSubitemValidation(TestChekingContant.java:30)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForDataScienceEnablementSubitem" classname="io.GreenM.TestChekingContant" time="0.126">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForDataScienceEnablementSubitem(TestChekingContant.java:860)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForDataScienceEnablementSubitem(TestChekingContant.java:860)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForSelfServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:824)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:824)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForCustomerServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:732)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:732)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem(TestChekingContant.java:587)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem(TestChekingContant.java:587)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForTechnologiesItem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTechnologiesItem(TestChekingContant.java:951)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTechnologiesItem(TestChekingContant.java:951)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuCasestudiesItemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuCasestudiesItemValidation(TestChekingContant.java:914)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuCasestudiesItemValidation(TestChekingContant.java:914)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemCommunityinsightsSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemCommunityinsightsSubitemValidation(TestChekingContant.java:175)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemCommunityinsightsSubitemValidation(TestChekingContant.java:175)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectHeaderFacebookLink" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderFacebookLink(TestChekingContant.java:975)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderFacebookLink(TestChekingContant.java:975)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.282">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation(TestChekingContant.java:533)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation(TestChekingContant.java:533)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleOpenJobButtonForCareersSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleOpenJobButtonForCareersSubitem(TestChekingContant.java:55)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleOpenJobButtonForCareersSubitem(TestChekingContant.java:55)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation(TestChekingContant.java:307)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation(TestChekingContant.java:307)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuServicesItemCustomerserviceanalyticsSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemCustomerserviceanalyticsSubitemValidation(TestChekingContant.java:713)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemCustomerserviceanalyticsSubitemValidation(TestChekingContant.java:713)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="MainMenuContactsItemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuContactsItemValidation(TestChekingContant.java:97)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuContactsItemValidation(TestChekingContant.java:97)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="MainMenuCompanyItemHCTechdigestSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemHCTechdigestSubitemValidation(TestChekingContant.java:89)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemHCTechdigestSubitemValidation(TestChekingContant.java:89)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem(TestChekingContant.java:118)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem(TestChekingContant.java:118)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHomeHealthSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHomeHealthSubitem(TestChekingContant.java:271)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHomeHealthSubitem(TestChekingContant.java:271)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation(TestChekingContant.java:488)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation(TestChekingContant.java:488)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthDataServicesSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthDataServicesSubitem(TestChekingContant.java:659)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthDataServicesSubitem(TestChekingContant.java:659)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:497)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:497)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleSubscribeButtonForHcDataPlatformSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeButtonForHcDataPlatformSubitem(TestChekingContant.java:141)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeButtonForHcDataPlatformSubitem(TestChekingContant.java:141)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuServicesItemSelfserviceanalyticsSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.047">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemSelfserviceanalyticsSubitemValidation(TestChekingContant.java:805)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemSelfserviceanalyticsSubitemValidation(TestChekingContant.java:805)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:542)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:542)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleGetInTouchAndLetsDiscussButtonsAndLetsDiscussFormForHealthDataServicesSubitem" classname="io.GreenM.TestChekingContant" time="0.109">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleGetInTouchAndLetsDiscussButtonsAndLetsDiscussFormForHealthDataServicesSubitem(TestChekingContant.java:631)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleGetInTouchAndLetsDiscussButtonsAndLetsDiscussFormForHealthDataServicesSubitem(TestChekingContant.java:631)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:334)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:334)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForEmbeddedAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:787)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:787)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem(TestChekingContant.java:470)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem(TestChekingContant.java:470)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem(TestChekingContant.java:614)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem(TestChekingContant.java:614)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForSelfServiceAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForSelfServiceAnalyticsSubitem(TestChekingContant.java:814)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForSelfServiceAnalyticsSubitem(TestChekingContant.java:814)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem" classname="io.GreenM.TestChekingContant" time="0.094">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:316)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:316)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForDrugDevelopmentSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:236)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:236)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForEmbeddedAnalyticsSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:778)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:778)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem(TestChekingContant.java:80)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem(TestChekingContant.java:80)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleContactUsFormForContactsItem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsFormForContactsItem(TestChekingContant.java:104)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsFormForContactsItem(TestChekingContant.java:104)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:343)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:343)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemDrugrevelopmentSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.031">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemDrugrevelopmentSubitemValidation(TestChekingContant.java:219)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemDrugrevelopmentSubitemValidation(TestChekingContant.java:219)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemHCdataplatformSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHCdataplatformSubitemValidation(TestChekingContant.java:133)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHCdataplatformSubitemValidation(TestChekingContant.java:133)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem(TestChekingContant.java:416)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem(TestChekingContant.java:416)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthAnalyticsServicesSubitem" classname="io.GreenM.TestChekingContant" time="0.015">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:704)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:704)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCommunityInsightsSubitem" classname="io.GreenM.TestChekingContant" time="0.016">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCommunityInsightsSubitem(TestChekingContant.java:192)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCommunityInsightsSubitem(TestChekingContant.java:192)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuServicesItemHealthanalyticsservicesSubitemValidation" classname="io.GreenM.TestChekingContant" time="0.093">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthanalyticsservicesSubitemValidation(TestChekingContant.java:668)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthanalyticsservicesSubitemValidation(TestChekingContant.java:668)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuTechnologiesItemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuTechnologiesItemValidation(TestChekingContant.java:928)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuTechnologiesItemValidation(TestChekingContant.java:928)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="SecondaryMenuSolutionsItemPointofcareSubitemValidation" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPointofcareSubitemValidation(TestChekingContant.java:398)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPointofcareSubitemValidation(TestChekingContant.java:398)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem" classname="io.GreenM.TestChekingContant" time="0">
+    <error message="org/openqa/selenium/net/HostIdentifier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem(TestChekingContant.java:379)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem(TestChekingContant.java:379)
+</error>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+]]></system-err>
+  </testcase>
+</testsuite>

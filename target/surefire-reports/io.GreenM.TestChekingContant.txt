@@ -1,0 +1,670 @@
+-------------------------------------------------------------------------------
+Test set: io.GreenM.TestChekingContant
+-------------------------------------------------------------------------------
+Tests run: 111, Failures: 0, Errors: 111, Skipped: 0, Time elapsed: 14.931 sec <<< FAILURE! - in io.GreenM.TestChekingContant
+CheckingVisibleReadMoreButtonAndGetInTouchFormForTechnologiesItem(io.GreenM.TestChekingContant)  Time elapsed: 11.529 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreButtonAndGetInTouchFormForTechnologiesItem(TestChekingContant.java:935)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreButtonAndGetInTouchFormForTechnologiesItem(TestChekingContant.java:935)
+
+SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.078 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation(TestChekingContant.java:352)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation(TestChekingContant.java:352)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem(TestChekingContant.java:479)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem(TestChekingContant.java:479)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForCustomerServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:741)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:741)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem(TestChekingContant.java:407)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem(TestChekingContant.java:407)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForDrugDevelopmentSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.032 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForDrugDevelopmentSubitem(TestChekingContant.java:254)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForDrugDevelopmentSubitem(TestChekingContant.java:254)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForSelfServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.234 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:833)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:833)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDrugDevelopmentSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:227)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:227)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTechnologiesItem(io.GreenM.TestChekingContant)  Time elapsed: 0.187 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTechnologiesItem(TestChekingContant.java:943)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTechnologiesItem(TestChekingContant.java:943)
+
+CheckingVisibleAndRedirectLearnMoreButtonForHcDataPlatformSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectLearnMoreButtonForHcDataPlatformSubitem(TestChekingContant.java:158)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectLearnMoreButtonForHcDataPlatformSubitem(TestChekingContant.java:158)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem(TestChekingContant.java:515)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem(TestChekingContant.java:515)
+
+siteIsAvailable(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.siteIsAvailable(TestChekingContant.java:16)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.siteIsAvailable(TestChekingContant.java:16)
+
+CheckingVisibleAndRedirectGetLatestNewsButtonForHcDataPlatformSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectGetLatestNewsButtonForHcDataPlatformSubitem(TestChekingContant.java:149)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectGetLatestNewsButtonForHcDataPlatformSubitem(TestChekingContant.java:149)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:560)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:560)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.093 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem(TestChekingContant.java:388)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem(TestChekingContant.java:388)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForHealthAnalyticsServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.359 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:686)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:686)
+
+SecondaryMenuSolutionsItemHomehealthSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.546 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHomehealthSubitemValidation(TestChekingContant.java:263)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHomehealthSubitemValidation(TestChekingContant.java:263)
+
+CheckingVisibleAndRedirectHeaderInstagramLink(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderInstagramLink(TestChekingContant.java:959)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderInstagramLink(TestChekingContant.java:959)
+
+CheckingVisibleLetsTalkButtonForCaseStudiesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsTalkButtonForCaseStudiesSubitem(TestChekingContant.java:921)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsTalkButtonForCaseStudiesSubitem(TestChekingContant.java:921)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:506)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:506)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForHomeHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHomeHealthSubitem(TestChekingContant.java:280)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForHomeHealthSubitem(TestChekingContant.java:280)
+
+SecondaryMenuServicesItemDatascienceenablementSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemDatascienceenablementSubitemValidation(TestChekingContant.java:851)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemDatascienceenablementSubitemValidation(TestChekingContant.java:851)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForDrugDevelopmentSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDrugDevelopmentSubitem(TestChekingContant.java:245)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDrugDevelopmentSubitem(TestChekingContant.java:245)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:551)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:551)
+
+CheckingVisibleViewAllTagsButtonForBlogItem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleViewAllTagsButtonForBlogItem(TestChekingContant.java:126)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleViewAllTagsButtonForBlogItem(TestChekingContant.java:126)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem(TestChekingContant.java:461)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem(TestChekingContant.java:461)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForHealthAnalyticsServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:695)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:695)
+
+SecondaryMenuSolutionsItemPopulationhealthSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPopulationhealthSubitemValidation(TestChekingContant.java:443)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPopulationhealthSubitemValidation(TestChekingContant.java:443)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem(TestChekingContant.java:370)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem(TestChekingContant.java:370)
+
+SecondaryMenuServicesItemHealthdataservicesSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthdataservicesSubitemValidation(TestChekingContant.java:623)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthdataservicesSubitemValidation(TestChekingContant.java:623)
+
+MainMenuCompanyItemCareersSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemCareersSubitemValidation(TestChekingContant.java:47)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemCareersSubitemValidation(TestChekingContant.java:47)
+
+CheckingVisible2ContactUsButtonsForTabterrierSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisible2ContactUsButtonsForTabterrierSubitem(TestChekingContant.java:905)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisible2ContactUsButtonsForTabterrierSubitem(TestChekingContant.java:905)
+
+SecondaryMenuSolutionsItemTelemedicineSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemTelemedicineSubitemValidation(TestChekingContant.java:578)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemTelemedicineSubitemValidation(TestChekingContant.java:578)
+
+CheckingVisibleAndRedirectFindOutMoreButtonForHealthDataServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectFindOutMoreButtonForHealthDataServicesSubitem(TestChekingContant.java:641)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectFindOutMoreButtonForHealthDataServicesSubitem(TestChekingContant.java:641)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem(TestChekingContant.java:605)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem(TestChekingContant.java:605)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForCommunityInsightsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.047 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCommunityInsightsSubitem(TestChekingContant.java:210)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForCommunityInsightsSubitem(TestChekingContant.java:210)
+
+CheckingVisibleContactButtonAndContactUsFormForAboutSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactButtonAndContactUsFormForAboutSubitem(TestChekingContant.java:38)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactButtonAndContactUsFormForAboutSubitem(TestChekingContant.java:38)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForHomeHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHomeHealthSubitem(TestChekingContant.java:289)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHomeHealthSubitem(TestChekingContant.java:289)
+
+SecondaryMenuServicesItemEmbeddedanalyticsSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemEmbeddedanalyticsSubitemValidation(TestChekingContant.java:759)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemEmbeddedanalyticsSubitemValidation(TestChekingContant.java:759)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForHealthDataServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthDataServicesSubitem(TestChekingContant.java:650)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForHealthDataServicesSubitem(TestChekingContant.java:650)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem(TestChekingContant.java:425)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem(TestChekingContant.java:425)
+
+CheckingVisibleContactUsButtonAndLetsDiscussFormForHealthAnalyticsServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsButtonAndLetsDiscussFormForHealthAnalyticsServicesSubitem(TestChekingContant.java:677)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsButtonAndLetsDiscussFormForHealthAnalyticsServicesSubitem(TestChekingContant.java:677)
+
+CheckingVisibleAndRedirectHeaderLinkedinLink(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderLinkedinLink(TestChekingContant.java:967)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderLinkedinLink(TestChekingContant.java:967)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForCommunityInsightsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCommunityInsightsSubitem(TestChekingContant.java:201)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCommunityInsightsSubitem(TestChekingContant.java:201)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDataScienceEnablementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:888)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:888)
+
+CheckingVisibleComeWorkWithUsFormForCareersSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.172 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleComeWorkWithUsFormForCareersSubitem(TestChekingContant.java:72)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleComeWorkWithUsFormForCareersSubitem(TestChekingContant.java:72)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem(TestChekingContant.java:361)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem(TestChekingContant.java:361)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem(TestChekingContant.java:524)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem(TestChekingContant.java:524)
+
+CheckingVisibleReferencesListForHcDataPlatformSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.047 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReferencesListForHcDataPlatformSubitem(TestChekingContant.java:167)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReferencesListForHcDataPlatformSubitem(TestChekingContant.java:167)
+
+CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForCustomerServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForCustomerServiceAnalyticsSubitem(TestChekingContant.java:722)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForCustomerServiceAnalyticsSubitem(TestChekingContant.java:722)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:569)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:569)
+
+MainMenuBlogItemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuBlogItemValidation(TestChekingContant.java:111)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuBlogItemValidation(TestChekingContant.java:111)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForEmbeddedAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:796)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:796)
+
+pageContainContactUsButtonInTheHeader(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.pageContainContactUsButtonInTheHeader(TestChekingContant.java:23)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.pageContainContactUsButtonInTheHeader(TestChekingContant.java:23)
+
+CheckingRedirectPathOpenJobButtonForCareersSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingRedirectPathOpenJobButtonForCareersSubitem(TestChekingContant.java:63)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingRedirectPathOpenJobButtonForCareersSubitem(TestChekingContant.java:63)
+
+SecondaryMenuProductsItemTabterrierSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuProductsItemTabterrierSubitemValidation(TestChekingContant.java:897)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuProductsItemTabterrierSubitemValidation(TestChekingContant.java:897)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem(TestChekingContant.java:298)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem(TestChekingContant.java:298)
+
+CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForEmbeddedAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForEmbeddedAnalyticsSubitem(TestChekingContant.java:768)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForEmbeddedAnalyticsSubitem(TestChekingContant.java:768)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForDataScienceEnablementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.171 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:870)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDataScienceEnablementSubitem(TestChekingContant.java:870)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForDataScienceEnablementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDataScienceEnablementSubitem(TestChekingContant.java:879)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForDataScienceEnablementSubitem(TestChekingContant.java:879)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForSelfServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.047 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:842)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:842)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCustomerServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:750)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:750)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem(TestChekingContant.java:596)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem(TestChekingContant.java:596)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem(TestChekingContant.java:452)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem(TestChekingContant.java:452)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem(TestChekingContant.java:434)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem(TestChekingContant.java:434)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:325)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:325)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem(TestChekingContant.java:183)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem(TestChekingContant.java:183)
+
+MainMenuCompanyItemAboutSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemAboutSubitemValidation(TestChekingContant.java:30)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemAboutSubitemValidation(TestChekingContant.java:30)
+
+CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForDataScienceEnablementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.126 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForDataScienceEnablementSubitem(TestChekingContant.java:860)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForDataScienceEnablementSubitem(TestChekingContant.java:860)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForSelfServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:824)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForSelfServiceAnalyticsSubitem(TestChekingContant.java:824)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForCustomerServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:732)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForCustomerServiceAnalyticsSubitem(TestChekingContant.java:732)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem(TestChekingContant.java:587)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem(TestChekingContant.java:587)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForTechnologiesItem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTechnologiesItem(TestChekingContant.java:951)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForTechnologiesItem(TestChekingContant.java:951)
+
+SecondaryMenuCasestudiesItemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuCasestudiesItemValidation(TestChekingContant.java:914)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuCasestudiesItemValidation(TestChekingContant.java:914)
+
+SecondaryMenuSolutionsItemCommunityinsightsSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemCommunityinsightsSubitemValidation(TestChekingContant.java:175)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemCommunityinsightsSubitemValidation(TestChekingContant.java:175)
+
+CheckingVisibleAndRedirectHeaderFacebookLink(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderFacebookLink(TestChekingContant.java:975)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectHeaderFacebookLink(TestChekingContant.java:975)
+
+SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.282 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation(TestChekingContant.java:533)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation(TestChekingContant.java:533)
+
+CheckingVisibleOpenJobButtonForCareersSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleOpenJobButtonForCareersSubitem(TestChekingContant.java:55)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleOpenJobButtonForCareersSubitem(TestChekingContant.java:55)
+
+SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation(TestChekingContant.java:307)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation(TestChekingContant.java:307)
+
+SecondaryMenuServicesItemCustomerserviceanalyticsSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemCustomerserviceanalyticsSubitemValidation(TestChekingContant.java:713)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemCustomerserviceanalyticsSubitemValidation(TestChekingContant.java:713)
+
+MainMenuContactsItemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuContactsItemValidation(TestChekingContant.java:97)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuContactsItemValidation(TestChekingContant.java:97)
+
+MainMenuCompanyItemHCTechdigestSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemHCTechdigestSubitemValidation(TestChekingContant.java:89)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.MainMenuCompanyItemHCTechdigestSubitemValidation(TestChekingContant.java:89)
+
+CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem(TestChekingContant.java:118)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem(TestChekingContant.java:118)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHomeHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHomeHealthSubitem(TestChekingContant.java:271)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHomeHealthSubitem(TestChekingContant.java:271)
+
+SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation(TestChekingContant.java:488)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation(TestChekingContant.java:488)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthDataServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthDataServicesSubitem(TestChekingContant.java:659)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthDataServicesSubitem(TestChekingContant.java:659)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:497)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem(TestChekingContant.java:497)
+
+CheckingVisibleSubscribeButtonForHcDataPlatformSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeButtonForHcDataPlatformSubitem(TestChekingContant.java:141)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeButtonForHcDataPlatformSubitem(TestChekingContant.java:141)
+
+SecondaryMenuServicesItemSelfserviceanalyticsSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.047 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemSelfserviceanalyticsSubitemValidation(TestChekingContant.java:805)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemSelfserviceanalyticsSubitemValidation(TestChekingContant.java:805)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:542)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem(TestChekingContant.java:542)
+
+CheckingVisibleGetInTouchAndLetsDiscussButtonsAndLetsDiscussFormForHealthDataServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.109 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleGetInTouchAndLetsDiscussButtonsAndLetsDiscussFormForHealthDataServicesSubitem(TestChekingContant.java:631)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleGetInTouchAndLetsDiscussButtonsAndLetsDiscussFormForHealthDataServicesSubitem(TestChekingContant.java:631)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:334)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:334)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForEmbeddedAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:787)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:787)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem(TestChekingContant.java:470)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem(TestChekingContant.java:470)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem(TestChekingContant.java:614)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem(TestChekingContant.java:614)
+
+CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForSelfServiceAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForSelfServiceAnalyticsSubitem(TestChekingContant.java:814)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleReadMoreAndLetsTalkButtonsAndLetsDiscussFormForSelfServiceAnalyticsSubitem(TestChekingContant.java:814)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.094 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:316)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:316)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForDrugDevelopmentSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:236)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForDrugDevelopmentSubitem(TestChekingContant.java:236)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForEmbeddedAnalyticsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:778)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForEmbeddedAnalyticsSubitem(TestChekingContant.java:778)
+
+CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem(TestChekingContant.java:80)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem(TestChekingContant.java:80)
+
+CheckingVisibleContactUsFormForContactsItem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsFormForContactsItem(TestChekingContant.java:104)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleContactUsFormForContactsItem(TestChekingContant.java:104)
+
+CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:343)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem(TestChekingContant.java:343)
+
+SecondaryMenuSolutionsItemDrugrevelopmentSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemDrugrevelopmentSubitemValidation(TestChekingContant.java:219)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemDrugrevelopmentSubitemValidation(TestChekingContant.java:219)
+
+SecondaryMenuSolutionsItemHCdataplatformSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHCdataplatformSubitemValidation(TestChekingContant.java:133)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemHCdataplatformSubitemValidation(TestChekingContant.java:133)
+
+CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem(TestChekingContant.java:416)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem(TestChekingContant.java:416)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthAnalyticsServicesSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:704)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForHealthAnalyticsServicesSubitem(TestChekingContant.java:704)
+
+CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCommunityInsightsSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0.016 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCommunityInsightsSubitem(TestChekingContant.java:192)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllCaseStudiesButtonForCommunityInsightsSubitem(TestChekingContant.java:192)
+
+SecondaryMenuServicesItemHealthanalyticsservicesSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0.093 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthanalyticsservicesSubitemValidation(TestChekingContant.java:668)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuServicesItemHealthanalyticsservicesSubitemValidation(TestChekingContant.java:668)
+
+SecondaryMenuTechnologiesItemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuTechnologiesItemValidation(TestChekingContant.java:928)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuTechnologiesItemValidation(TestChekingContant.java:928)
+
+SecondaryMenuSolutionsItemPointofcareSubitemValidation(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPointofcareSubitemValidation(TestChekingContant.java:398)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.SecondaryMenuSolutionsItemPointofcareSubitemValidation(TestChekingContant.java:398)
+
+CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem(io.GreenM.TestChekingContant)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/net/HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem(TestChekingContant.java:379)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.net.HostIdentifier
+	at io.GreenM.TestChekingContant.CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem(TestChekingContant.java:379)
+
