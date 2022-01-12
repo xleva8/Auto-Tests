@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42bc268d-f062-4529-a869-cf1520ba57f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/greenmio-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/greenmio-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greenmio-test.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/greenmio-test.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greenmio-test.iws" beforeDir="false" afterPath="$PROJECT_DIR$/greenmio-test.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +176,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
@@ -473,6 +471,9 @@
       <flatten-packages value="false" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
