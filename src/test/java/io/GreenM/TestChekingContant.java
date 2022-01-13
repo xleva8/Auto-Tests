@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
 
@@ -28,106 +29,107 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void MainMenuCompanyItemAboutSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-7245")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'About')]")).click();
         $(By.id("header-content-block_5ebb159449612")).shouldHave(text("Global Health Data Innovation, Architecture and Design Company"));
     }
 
     @Test
     public void CheckingVisibleContactButtonAndContactUsFormForAboutSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-7245")).click();
-        $(By.cssSelector("#section-got-block_5e321e3ba4790 > div > div > div:nth-child(2) > div > a")).shouldBe(visible);
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'About')]")).click();
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'CONTACT')]")).shouldBe(visible);
         $(By.id("section-form-block_5e78f8d2842a9")).shouldBe(visible);
     }
 
     @Test
     public void MainMenuCompanyItemCareersSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-7246")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Careers')]")).click();
         $(By.id("header-content-block_60b7d118aa102")).shouldHave(text("Become a part of GreenM"));
     }
 
     @Test
     public void CheckingVisibleOpenJobButtonForCareersSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-7246")).click();
-        $(By.cssSelector("#section-banner-cta-block_60b93d19e9e34 > div > div > div > div > a")).shouldBe(visible);
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Careers')]")).click();
+        $(byXpath("//div[@class='btn-wrap-banner']//a[contains(text(),'Open jobs')]")).shouldBe(visible);
     }
 
     @Test
     public void CheckingRedirectPathOpenJobButtonForCareersSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-7246")).click();
-        $(By.cssSelector("#section-banner-cta-block_60b93d19e9e34 > div > div > div > div > a")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Careers')]")).click();
+        $(byXpath("//div[@class='btn-wrap-banner']//a[contains(text(),'Open jobs')]")).click();
         webdriver().shouldHave(url("https://jobs.lever.co/greenm"));
     }
 //3.1.8
     @Test
     public void CheckingVisibleComeWorkWithUsFormForCareersSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-7246")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Careers')]")).click();
         $(By.id("section-form-block_60b7e676aa112")).shouldBe(visible);
     }
 //3.1.11
     @Test
     public void CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-5781")).click();
-        $(By.cssSelector("body > section.tags-block > div > div > div > div > a")).shouldBe(visible);
-        $(By.cssSelector("body > section.section.section-got.section-got-1 > div > div > div:nth-child(2) > div > a")).shouldBe(visible);
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'HC Tech Digest')]")).click();
+        $(byXpath("//div[@class='tags-block_wrap']//a[contains(text(),'Subscribe')]")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'Let')]")).shouldBe(visible);
     }
 
     @Test
     public void MainMenuCompanyItemHCTechdigestSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-1163")).click();
-        $(By.id("menu-item-5781")).click();
-        $(By.cssSelector("body > section.header-content.header-content_page")).shouldHave(text("GreenM Health Tech Digest"));
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Company')]")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'HC Tech Digest')]")).click();
+        $(byXpath("//section[@class='header-content header-content_page']")).shouldHave(text("GreenM Health Tech Digest"));
     }
 
     @Test
     public void MainMenuContactsItemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-33")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Contacts')]")).click();
         $(By.id("header-content-block_5ebbc333c1b54")).shouldHave(text("Contact Info"));
     }
 //3.2.3
     @Test
     public void CheckingVisibleContactUsFormForContactsItem() {
         open(BASE_URL);
-        $(By.id("menu-item-33")).click();
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Contacts')]")).click();
         $(By.id("section-form-block_5ebbc3c1c1b59")).shouldBe(visible);
     }
 
     @Test
     public void MainMenuBlogItemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-32")).click();
-        $(By.cssSelector("body > section.header-content.header-content_page")).shouldHave(text("Blog"));
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Blog')]")).click();
+        $(byXpath("//section[@class='header-content header-content_page']")).shouldHave(text("Blog"));
+
     }
 //3.4.3
     @Test
     public void CheckingVisibleSubscribeAndLetsTalkButtonsForBlogItem() {
         open(BASE_URL);
-        $(By.id("menu-item-32")).click();
-        $(By.cssSelector("body > section.tags-block > div > div > div > div > a")).shouldBe(visible);
-        $(By.cssSelector("body > section.section.section-got.section-got-1 > div > div > div:nth-child(2) > div > a")).shouldBe(visible);
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Blog')]")).click();
+        $(byXpath("//div[@class='tags-block_wrap']//a[contains(text(),'Subscribe')]")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'Let')]")).shouldBe(visible);
     }
 //3.4.4
     @Test
     public void CheckingVisibleViewAllTagsButtonForBlogItem() {
         open(BASE_URL);
-        $(By.id("menu-item-32")).click();
-        $(By.cssSelector("body > section.tags-block > div > div > div > div > div.tags-all > span")).shouldBe(visible);
+        $(byXpath("//div[@class='bar-menu-wrap']//a[contains(text(),'Blog')]")).click();
+        $(byXpath("//div[@class='tags-all']//span[contains(text(),'View all tags')]")).shouldBe(visible);
     }
-
+//to be continued...
     @Test
     public void SecondaryMenuSolutionsItemHCdataplatformSubitemValidation() {
         open(BASE_URL);
