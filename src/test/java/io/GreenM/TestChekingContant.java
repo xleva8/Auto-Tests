@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
 
-public class ChekingContant extends BaseTest {
+public class TestChekingContant extends BaseTest {
     private final static String BASE_URL = "https://greenm.io";
     @Test
     public void siteIsAvailable() {
