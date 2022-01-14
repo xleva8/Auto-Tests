@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42bc268d-f062-4529-a869-cf1520ba57f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/greenmio-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/greenmio-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greenmio-test.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/greenmio-test.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greenmio-test.iws" beforeDir="false" afterPath="$PROJECT_DIR$/greenmio-test.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/GreenM/TestChekingContant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/GreenM/TestChekingContant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid4496.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay_pid4496.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/GreenM/CheckingTagUnderDevelopment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/GreenM/ChekingContant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/GreenM/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/GreenM/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/GreenM/CheckingTagUnderDevelopment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/GreenM/ChekingContant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/GreenM/TestCheckingRedirectionMainAndSecondaryMenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/GreenM/TestCheckingRedirectionMainAndSecondaryMenuItem.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestChekingContant.MainMenuBlogItemValidation">
+  <component name="RunManager" selected="JUnit.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -301,7 +310,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCheckingTagUnderDevelopment.AWSTagValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greenmio-test" />
       <extension name="coverage">
         <pattern>
@@ -310,8 +319,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.GreenM" />
-      <option name="MAIN_CLASS_NAME" value="io.GreenM.TestCheckingTagUnderDevelopment" />
-      <option name="METHOD_NAME" value="AWSTagValidation" />
+      <option name="MAIN_CLASS_NAME" value="io.GreenM.TestChekingContant" />
+      <option name="METHOD_NAME" value="CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -322,7 +331,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChekingContant.CheckingVisibleContactButtonAndContactUsFormForAboutSubitem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greenmio-test" />
       <extension name="coverage">
         <pattern>
@@ -332,7 +341,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.GreenM" />
       <option name="MAIN_CLASS_NAME" value="io.GreenM.TestChekingContant" />
-      <option name="METHOD_NAME" value="CheckingVisibleContactButtonAndContactUsFormForAboutSubitem" />
+      <option name="METHOD_NAME" value="CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -343,7 +352,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChekingContant.CheckingVisibleReferencesListForHcDataPlatformSubitem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greenmio-test" />
       <extension name="coverage">
         <pattern>
@@ -353,7 +362,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.GreenM" />
       <option name="MAIN_CLASS_NAME" value="io.GreenM.TestChekingContant" />
-      <option name="METHOD_NAME" value="CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem" />
+      <option name="METHOD_NAME" value="CheckingVisibleReferencesListForHcDataPlatformSubitem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -364,7 +373,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChekingContant.MainMenuBlogItemValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChekingContant.CheckingVisibleSubscribeButtonForHcDataPlatformSubitem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greenmio-test" />
       <extension name="coverage">
         <pattern>
@@ -374,7 +383,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.GreenM" />
       <option name="MAIN_CLASS_NAME" value="io.GreenM.TestChekingContant" />
-      <option name="METHOD_NAME" value="MainMenuBlogItemValidation" />
+      <option name="METHOD_NAME" value="CheckingVisibleSubscribeButtonForHcDataPlatformSubitem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -385,7 +394,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChekingContant.MainMenuCompanyItemHCTechdigestSubitemValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestChekingContant.SecondaryMenuSolutionsItemHCdataplatformSubitemValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greenmio-test" />
       <extension name="coverage">
         <pattern>
@@ -395,7 +404,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.GreenM" />
       <option name="MAIN_CLASS_NAME" value="io.GreenM.TestChekingContant" />
-      <option name="METHOD_NAME" value="MainMenuCompanyItemHCTechdigestSubitemValidation" />
+      <option name="METHOD_NAME" value="SecondaryMenuSolutionsItemHCdataplatformSubitemValidation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -419,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestChekingContant.MainMenuBlogItemValidation" />
-        <item itemvalue="JUnit.TestChekingContant.MainMenuCompanyItemHCTechdigestSubitemValidation" />
-        <item itemvalue="JUnit.TestChekingContant.CheckingVisibleSubscribeAndLetsTalkButtonsForHCTechDigestSubitem" />
-        <item itemvalue="JUnit.TestChekingContant.CheckingVisibleContactButtonAndContactUsFormForAboutSubitem" />
-        <item itemvalue="JUnit.TestCheckingTagUnderDevelopment.AWSTagValidation" />
+        <item itemvalue="JUnit.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForHomeHealthSubitem" />
+        <item itemvalue="JUnit.TestChekingContant.CheckingVisibleLetsDiscussFormAndContactUsButtonForCommunityInsightsSubitem" />
+        <item itemvalue="JUnit.TestChekingContant.CheckingVisibleReferencesListForHcDataPlatformSubitem" />
+        <item itemvalue="JUnit.TestChekingContant.CheckingVisibleSubscribeButtonForHcDataPlatformSubitem" />
+        <item itemvalue="JUnit.TestChekingContant.SecondaryMenuSolutionsItemHCdataplatformSubitemValidation" />
       </list>
     </recent_temporary>
   </component>

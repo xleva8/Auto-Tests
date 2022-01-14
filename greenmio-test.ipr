@@ -194,7 +194,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module filepath="$PROJECT_DIR$/greenmio-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greenmio-test.iml" filepath="$PROJECT_DIR$/greenmio-test.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="17." project-jdk-type="JavaSDK" />

@@ -307,8 +307,8 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void SecondaryMenuSolutionsItemPatientengagementandmhealthSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3422")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Patient Engagement and mHealth')]")).click();
         $(By.id("header-content-block_5ebb2007ee330")).shouldHave(text("Patient Engagement and mHealth Solutions"));
     }
 
@@ -316,44 +316,44 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPatientEngagementAndMhealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3422")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Patient Engagement and mHealth')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.28
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForPatientEngagementAndMhealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3422")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Patient Engagement and mHealth')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.29
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForPatientEngagementAndMhealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3422")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Patient Engagement and mHealth')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.30
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForPatientEngagementAndMhealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3422")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Patient Engagement and mHealth')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
 
     @Test
     public void SecondaryMenuSolutionsItemPharmacymanagementSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3791")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Pharmacy Management')]")).click();
         $(By.id("header-content-block_5ebb2007ee330")).shouldHave(text("Pharmacy Management Analytics and Data Engineering Solutions"));
     }
 
@@ -361,37 +361,37 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPharmacyManagementSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3791")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Pharmacy Management')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.34
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForPharmacyManagementSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3791")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Pharmacy Management')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.35
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForPharmacyManagementSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3791")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Pharmacy Management')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.36
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForPharmacyManagementSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3791")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Pharmacy Management')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
 
 
@@ -407,44 +407,44 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPointOfCareSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3055")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Point of Care')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.40
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForPointOfCareSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3055")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Point of Care')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.41
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForPointOfCareSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3055")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Point of Care')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.42
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForPointOfCareSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3055")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Point of Care')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
 
     @Test
     public void SecondaryMenuSolutionsItemPopulationhealthSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3227")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Population Health')]")).click();
         $(By.id("header-content-block_5ebb2007ee330")).shouldHave(text("Embracing Population Health Management Solutions"));
     }
 
@@ -452,44 +452,44 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPopulationHealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3227")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Population Health')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.46
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForPopulationHealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3227")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Population Health')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.47
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForPopulationHealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3227")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Population Health')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.48
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForPopulationHealthSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-3227")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Population Health')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
 
     @Test
     public void SecondaryMenuSolutionsItemPrecisionmedicineSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4519")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Precision medicine')]")).click();
         $(By.id("header-content-block_5ebb2007ee330")).shouldHave(text("Precision Medicine Data Analytics Solutions"));
     }
 
@@ -497,44 +497,44 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForPrecisionMedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4519")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Precision medicine')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.52
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForPrecisionMedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4519")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Precision medicine')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.53
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForPrecisionMedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4519")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Precision medicine')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.54
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForPrecisionMedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4519")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Precision medicine')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
 
     @Test
     public void SecondaryMenuSolutionsItemRFIDassettrackingSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4398")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'RFID Asset Tracking')]")).click();
         $(By.id("header-content-block_5ebb2007ee330")).shouldHave(text("RFID Asset Tracking and Inventory Management Solutions"));
     }
 
@@ -542,44 +542,44 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForRFIDAssetTrackingSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4398")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'RFID Asset Tracking')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.58
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForRFIDAssetTrackingSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4398")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'RFID Asset Tracking')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.59
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForRFIDAssetTrackingSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4398")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'RFID Asset Tracking')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.60
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForRFIDAssetTrackingSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-4398")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'RFID Asset Tracking')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
 
     @Test
     public void SecondaryMenuSolutionsItemTelemedicineSubitemValidation() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-2458")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Telemedicine')]")).click();
         $(By.id("header-content-block_5ebb2007ee330")).shouldHave(text("Telemedicine software development and data engineering services"));
     }
 
@@ -587,39 +587,39 @@ public class TestChekingContant extends BaseTest {
     @Test
     public void CheckingVisibleAndRedirectViewAllCaseStudiesButtonForTelemedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-2458")).click();
-        $(By.xpath("//*[@id=\"section-case-block_5e3201b0ff71b\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Telemedicine')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all case studies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/case-studies/"));
     }
     //4.1.64
     @Test
     public void CheckingVisibleAndRedirectViewAllTechnologiesButtonForTelemedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-2458")).click();
-        $(By.xpath("//*[@id=\"section-key-block_5e33052d81e9e\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Telemedicine')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View All Technologies')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/technologies/"));
     }
     //4.1.65
     @Test
     public void CheckingVisibleAndRedirectViewAllPostsButtonForTelemedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-2458")).click();
-        $(By.xpath("//*[@id=\"section-blog-block_5e3201f3ff71c\"]/div/div[3]/div/div/span/a")).shouldBe(visible).scrollIntoView(true).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Telemedicine')]")).click();
+        $(byXpath("//div[@class='btn-wrap']//a[contains(text(),'View all posts')]")).shouldBe(visible).scrollIntoView(true).click();
         webdriver().shouldHave(url("https://greenm.io/blog/"));
     }
     //4.1.66
     @Test
     public void CheckingVisibleLetsDiscussFormAndContactUsButtonForTelemedicineSubitem() {
         open(BASE_URL);
-        $(By.id("menu-item-3421")).click();
-        $(By.id("menu-item-2458")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Solutions')]")).click();
+        $(byXpath("//div[@class='top-menu']//a[contains(text(),'Telemedicine')]")).click();
         $(By.id("section-form-block_5e78f559ddb7e")).shouldBe(visible);
-        $(By.xpath("//*[@id=\"section-got-block_5e320222ff71d\"]/div/div/div[2]/div/a")).shouldBe(visible);
+        $(byXpath("//div[@class='btn-wrap-got']//a[contains(text(),'contact us')]")).shouldBe(visible);
     }
-
+//14.01.10:59
     @Test
     public void SecondaryMenuServicesItemHealthdataservicesSubitemValidation() {
         open(BASE_URL);
